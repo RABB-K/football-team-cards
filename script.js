@@ -1,8 +1,29 @@
 const footballTeam = {
   team :'Mazembe',
-  year:2012,
+  year:2010,
   headCoach: "lamine Mamadou N'Diaye",
-  players: [{name:'Mputu Tresore', position:'forward',isCaptain: true},{name:'Robert Kidiaba', position: 'goalkeeper', isCaptain: false},{name:'Kimwaki Joel', position:'defender', isCaptain: false},{name:'Kalityuka Dioko', position: 'forward', isCaptain: false},{name:'lay Matampi', position:'goalkeeper', isCaptain: false},{name:'Stopila Sunzu', position:'defender',isCaptain: false},{name:'Ntambwe Ilunga', position:'midfielder',isCaptain: false}]
+  players: [{name:'Mputu Tresore', position:'forward',isCaptain: true},
+    {name:'Robert Muteba Kidiaba', position: 'goalkeeper', isCaptain: false},
+    {name:'Kalililo Kakonje', position:'goalkeeper', isCaptain: false},
+    {name:'Aimé Bakula ', position:'goalkeeper', isCaptain: false},
+    {name:'Leopold Bagnack ', position:'defender', isCaptain: false},
+    {name:'Kanyimbo Tshizeu ', position:'defender', isCaptain: false},
+    {name:'Tshani Mukinayi ', position:'defender', isCaptain: false},
+    {name:'Hichani Himoonde ', position:'defender',isCaptain: false},
+    {name:'Sita Lebrun Milandu ', position:'defender', isCaptain: false},
+    {name:'Ngandu Kasongo ', position:'forward', isCaptain: false},
+    {name:'Luyeye Mvete ', position:'forward', isCaptain: false},
+    {name:'Serge Lofo Bongeli ', position:'forward', isCaptain: false},
+    {name:'Marcelin Tamboulas ', position:'forward', isCaptain: false},
+    {name:'Kimwaki Joel', position:'defender', isCaptain: false},
+    {name:'Kalityuka Dioko', position: 'forward', isCaptain: false},
+    {name:'lay Matampi', position:'goalkeeper', isCaptain: false},
+    {name:'Stopila Sunzu', position:'defender',isCaptain: false},
+    {name:'Ntambwe Ilunga', position:'midfielder',isCaptain: false},
+    {name:'Déo Kanda', position:'midfielder', isCaptain: false},
+    {name:'Given Singuluma', position:'midfielder', isCaptain: false},
+    {name:'Guy Lusadisu ', position:'midfielder', isCaptain: false}
+  ]
 };
 
 document.getElementById("team").textContent = footballTeam.team;
