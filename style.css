@@ -40,6 +40,7 @@ footer {
 
 .options-label {
   font-size: 1.2rem;
+  padding:20px;
 }
 
 .cards {
@@ -55,6 +56,25 @@ footer {
   margin: 1.2rem;
   width: 300px;
   border-radius: 15px;
+}
+.player-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  background-color: #f9f9f9;
+  display: inline-block;
+}
+
+.player-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
